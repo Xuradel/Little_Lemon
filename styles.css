@@ -1,0 +1,157 @@
+body{
+    background-color: #EEEEEE;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #495F58;
+    border-radius: .5rem;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+li a{
+    color: #F8F8FF;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer div{
+    background-color: #FCFCFC;
+    flex: 1;
+}
+
+footer div img {
+    max-width: 8%;
+    height: auto;
+}
+
+article > h1 {
+    color: #F8F8FF;
+    padding-left: 2rem;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:2.4rem;
+}
+
+.heading p{
+    color: #ffffff;
+    padding-left: 2rem;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+article > h2 {
+    text-align: center;
+    color: #495F58;
+}
+
+.heading2 p{
+    color: #495F58;
+    text-align: center;
+}
+
+.heading2 a{
+    color: #495F58;
+    margin-left: 5rem;
+}
+
+.heading{
+    background-image: url("carpaccio2.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+}
+
+.heading2{
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.article1{
+    background-color: #FAEACB;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.article2{
+    background-color: #FAEACB;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.article3{
+    background-color: #FAEACB;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.img1{
+    max-width: 100%;
+    height: auto;
+}
+
+.img2{
+    max-width: 100%;
+    height: auto;
+}
+
+.img3{
+    max-width: 100%;
+    height: auto;
+}
+
+.little_logo img{
+    padding: 2rem;
+}
+
+.copyright p{
+    padding: 2rem;
+    text-align: right;
+    text-decoration: overline;
+}
