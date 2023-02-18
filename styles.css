@@ -40,6 +40,11 @@ li a{
     color: #F8F8FF;
     text-decoration: none;
     font-size: 1.5rem;
+    transition: color .2s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+li a:hover{
+    box-shadow: inset 100px 0 0 0 #6e8f84;
 }
 
 section {
@@ -95,7 +100,13 @@ article > h2 {
 
 .heading2 a{
     color: #495F58;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.heading2 a:hover{
+    box-shadow: inset 100px 0 0 0 #6e8f84;
+    color: white;
 }
 
 .heading{
